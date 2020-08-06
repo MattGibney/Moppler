@@ -11,7 +11,15 @@
   </url>
   
   <url>
+    <loc>http://example.org/projects/critterpedia/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/</loc>
   </url>
   
   <url>
