@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ .Content }}
+
+  <div class="row">
+    {{ range .Pages }}
+      {{ $image := .Resources.GetMatch .Params.thumbnail }}
+      <div class="col-4">
+        <div class="card shadow mb-4">
+          <img class="card-img-top project-card-thumbnail" src="{{ $image.RelPermalink }}" alt="">
+          <div class="card-body">
+            <a href="{{ .RelPermalink }}" class="stretched-link text-decoration-none text-body">
+              <div class="d-flex justify-content-between">
+                <h5 class="card-title">{{ .Title }}</h5>
+              </div>
+              <p class="mb-0 text-muted small">{{ .Params.Summary }}</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
