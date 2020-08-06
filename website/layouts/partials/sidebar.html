@@ -1,0 +1,19 @@
+<img src="/avatar.png" class="img-fluid rounded-circle" alt="Moppler's Avatar">
+<h1>Moppler</h1>
+<p class="text-muted small">Writing terrible code since 2005.</p>
+
+<hr>
+
+<nav class="nav nav-pills flex-column">
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+    <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+  {{ end }}
+</nav>
+
+<hr>
+
+<div class="d-flex justify-content-center">
+  <a href="https://github.com/Moppler" class="text-decoration-none text-body mx-1"><i class="h2 fab fa-github"></i></a>
+  <a href="https://www.youtube.com/channel/UCcB6TmKA3pDF0WTzkniBPlw" class="text-decoration-none text-danger mx-1"><i class="h2 fab fa-youtube"></i></a>
+</div>
