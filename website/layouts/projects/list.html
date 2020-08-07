@@ -4,7 +4,7 @@
   <div class="row">
     {{ range .Pages }}
       {{ $image := .Resources.GetMatch .Params.thumbnail }}
-      <div class="col-4">
+      <div class="col-12 col-sm-4">
         <div class="card shadow mb-4">
           <img class="card-img-top project-card-thumbnail" src="{{ $image.RelPermalink }}" alt="">
           <div class="card-body">
