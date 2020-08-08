@@ -19,5 +19,14 @@
       <description>Animal Crossing New Horizons companion app</description>
     </item>
     
+    <item>
+      <title>MUD</title>
+      <link>http://example.org/projects/mud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/mud/</guid>
+      <description>Text-based MMORPG</description>
+    </item>
+    
   </channel>
 </rss>

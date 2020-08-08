@@ -10,7 +10,7 @@
   }
 </style>
 
-<title>Moppler | Blog</title>
+<title>Moppler | MUD Initial Thoughts</title>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/brands.css" integrity="sha384-MiOGyNsVTeSVUjE9q/52dpdZjrr7yQAjVRUs23Bir5NhrTq0YA0rny4u/qe4dxNj" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/fontawesome.css" integrity="sha384-PRy/NDAXVTUcXlWA3voA+JO/UMtzWgsYuwMxjuu6DfFPgzJpciUiPwgsvp48fl3p" crossorigin="anonymous">
@@ -31,7 +31,7 @@
   
     <a class="nav-link" href="/projects/" title="projects">Projects</a>
   
-    <a class="nav-link active" href="/blog/" title="blog section">Blog</a>
+    <a class="nav-link" href="/blog/" title="blog section">Blog</a>
   
 </nav>
 
@@ -52,19 +52,32 @@
         <div class="col">
   
 
-  
+  <h2>MUD Initial Thoughts</h2>
+  <p class="small text-muted"><time datetime="2020-08-07T22:57:38Z">Fri Aug 7, 2020</time></p>
 
-  
-    <div class="card card-body shadow mb-4">
-      <a href="http://example.org/blog/mud-initial-thoughts/" class="stretched-link text-decoration-none text-body">
-        <div class="d-flex justify-content-between">
-          <h5 class="card-title">MUD Initial Thoughts</h5>
-          <p class="mb-0 text-muted small"><time datetime="2020-08-07T22:57:38Z">Fri Aug 7, 2020</time></p>
-        </div>
-        <p class="mb-0">A little history This isn&rsquo;t the first time i&rsquo;ve had a go at building MUDs. I&rsquo;ve tried a couple of different times over the years. I&rsquo;ve tried building from scratch and i&rsquo;ve tried using frameworks. All of them have worked with limited success but none of them have been totally successful. In hindsight, I think i&rsquo;ve struggled to get excited about them because they have all felt awkward to program. A combination of using telnet and trying to emulate things i&rsquo;ve seen in existing populat MUDs have muddied my views of things.</p>
-      </a>
-    </div>
-  
+  <h3 id="a-little-history">A little history</h3>
+<p>This isn&rsquo;t the first time i&rsquo;ve had a go at building MUDs. I&rsquo;ve tried a couple of
+different times over the years. I&rsquo;ve tried building from scratch and i&rsquo;ve tried
+using frameworks. All of them have worked with limited success but none of them
+have been totally successful. In hindsight, I think i&rsquo;ve struggled to get
+excited about them because they have all felt awkward to program. A combination
+of using telnet and trying to emulate things i&rsquo;ve seen in existing populat MUDs
+have muddied my views of things. With this latest attempt I want to try and fix
+my issues.</p>
+<h3 id="clients">Clients</h3>
+<p>In my opinion, telnet has served its purpose and is not worth pursuing anymore;
+Time to move on. After a lot of thought I have settled on shipping a client.
+I&rsquo;d be interested in making use of ssh for this <a href="https://medium.com/@shazow/ssh-how-does-it-even-9e43586e4ffc">theres a great blog post about it.</a></p>
+<p>In order to keep things simple and allow me to iterate quickly, the plan is to
+start with a CLI written in Node and shipped via NPM. It&rsquo;s free, easy and I
+know exactly how to do it. Making use of the terminal provides me with a strict
+limitation on aesthetics, keeping my focus on mechanics. The best part however,
+is that my implementation makes it pretty easy to add different, more
+sophisticated, clients in the future.</p>
+<h4 id="code">Code</h4>
+<p><a href="https://github.com/Moppler/TextAdventure-Server">Server</a></p>
+<p><a href="https://github.com/Moppler/TextAdventure-Client">Client</a></p>
+
 
         </div>
       </div>
