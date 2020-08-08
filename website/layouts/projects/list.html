@@ -3,10 +3,12 @@
 
   <div class="row">
     {{ range .Pages }}
-      {{ $image := .Resources.GetMatch .Params.thumbnail }}
       <div class="col-12 col-sm-4">
         <div class="card shadow mb-4">
-          <img class="card-img-top project-card-thumbnail" src="{{ $image.RelPermalink }}" alt="">
+          {{ if .Params.thumbnail }}
+            {{ $image := .Resources.GetMatch .Params.thumbnail }}
+            <img class="card-img-top project-card-thumbnail" src="{{ $image.RelPermalink }}" alt="">
+          {{ end }}
           <div class="card-body">
             <a href="{{ .RelPermalink }}" class="stretched-link text-decoration-none text-body">
               <div class="d-flex justify-content-between">
