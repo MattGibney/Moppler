@@ -6,10 +6,22 @@
     <description>Recent content in Blog on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Aug 2020 22:57:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 17:04:44 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mud a Working Prototype</title>
+      <link>http://example.org/blog/mud-a-working-prototype/</link>
+      <pubDate>Tue, 11 Aug 2020 17:04:44 +0000</pubDate>
+      
+      <guid>http://example.org/blog/mud-a-working-prototype/</guid>
+      <description>Server | Client
+ After quite a lot of experimenting as well as playing around with different methods of communication between the client and the server, I finally settled on something that seems to work.
+Server asks: What would you like to do? and provides choices.
+{ type: &amp;#39;requestInstruction&amp;#39;, data: { availableInstructions: [ { name: &amp;#39;Look&amp;#39;, instruction: &amp;#39;look&amp;#39; }, { name: &amp;#39;Move&amp;#39;, instruction: &amp;#39;move&amp;#39;, arguments: [ { type: &amp;#39;select&amp;#39;, name: &amp;#39;direction&amp;#39;, playerPrompt: &amp;#34;Which Direction?</description>
+    </item>
     
     <item>
       <title>MUD Initial Thoughts</title>
