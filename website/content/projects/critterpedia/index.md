@@ -15,8 +15,10 @@ Status: **Live** | [critterpedia.moppler.co.uk](http://critterpedia.moppler.co.u
 
 ## Project Goal
 
-Create a mobile-first companion app for the Nintendo Game Animal Crossing New
-Horisons. To provide the user with an easy to use interface for looking up key
-information about the fish and bugs that are available to them. The app should
-provide the user with information about critters that they can catch right now.
-
+To provide users with a mobile-first companion to the game Animal Crossing New
+Horizons. The assumption is that most players aren't likely to have a computer
+with them,. or would prefer not to. The convenience of a mobile phone os much
+better when playing games. The issue is that mosh gaming websites with the key
+information that they need are not easy to navigate on a mobile and represent
+the data badly. This project aims to clear this up for players by providing a
+simple and clean interface with all of the information they need at a glance.
