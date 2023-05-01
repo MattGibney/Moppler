@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "en-GB"
+title = "Moppler"
 
 [menu]
 
@@ -18,9 +18,3 @@ title = "My New Hugo Site"
     url = "/projects/"
     weight = -100
 
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    title = "blog section"
-    url = "/blog/"
-    weight = -90

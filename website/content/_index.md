@@ -2,26 +2,23 @@
 Title: Home
 ---
 
-Hi there, i'm Moppler 👋🏻
+Hi there, I'm Moppler 👋🏻
 
-By day, i'm a proud dad, programmer and mechanical keyboard enthusiast. By night,
-I'm also those things, but also tired.
+I'm a software engineer and I love to build things. I'm currently working on
+some commercial mobile apps but when I have the free time, I like to work on
+open source projects.
 
-I like to dabble in projects, most of the time I don't get any where near to
-completing them. Most of my Github Repos are provate because the sheer number of
-abandoned projects is staggerring.
+I primarily work with Typescript, react and react-native. I'm currently learning
+Swift and really getting stuck into the Apple ecosystem. I've got plenty of
+experience with Perl too, but I'm not sure if that's something to brag about.
 
-The Moppler handle is relatively new, I created it as my old one was too closely
-linked to my real identity and as i've gotten older, I have found that I prefer
-the anonymity.
-
-If I don't completely forget, I plan to use the space to document my thoughts
-as well as some of the odd projects that I work on.
-
+When I'm not coding, I'm usually playing video games, normally Factorio on the
+laptop or Forza on the Xbox. I'm also a massive fan of Lego and have a huge
+collection of sets, mostly vehicles.
 
 ## Get in touch
 
-Wether you are interested in joining me on one of my projects or think i'd be
-interested in one of yours. Please get in touch, i'd love to hear from you.
+Interested in joining me on one of my projects or think i’d be interested in one
+of yours? Please get in touch, i’d love to hear from you.
 
 Email: findmoppler@gmail.com
